@@ -52,7 +52,7 @@ const number = 5
 
 //solution 1
 if(number > 1 && number < 6){
-  conseolg.log("case 1")
+  console.log("case 1")
 }else if (number > 7){
   console.log("case 2")
 }else {
