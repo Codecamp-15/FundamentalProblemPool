@@ -4,7 +4,7 @@ ex.
 
 ```js
 // 1.ประกาศตัวแปร a เก็บค่า Boolean true
-
+let a = true
 // 2. ประกาศตัวแปร b เก็บค่าตัวแปร a โดยให้เป็นค่า Boolean ค่าตรงข้าม
 const b = !a
 // 3. console.log ค่าตัวแปร b
@@ -46,6 +46,8 @@ If the username is incorrect, print "Wrong Username".
 
 Exercise 3:
 เมื่อประกาศตัวแปร number มีค่าเท่ากับ 5 จงสังเกตว่า การใช้งาน if-else ใน solution 1 และ solution 2 ให้ผลลัพธ์เหมือนหรือแตกต่างกันอย่างไร เพราะเหตุใด จงอธิบาย
+
+```js
 const number = 5
 
 //solution 1
@@ -58,7 +60,6 @@ if(number > 1 && number < 6){
 }
 
 //solution 2
-
 if(number > 1 && number < 6){
   conseolg.log("case 1")
 }
@@ -69,9 +70,8 @@ if (number > 7){
 }
 
 
-Exercise 4:
-
-const loging = true
+// Exercise 4: จงทายผลลัพธ์
+const login = true
 const isAdmin = false
 let name = null
 
@@ -84,12 +84,12 @@ if(login){
 console.log(name) // ผลลัพธ์คืออะไร
 
 
-Exercise 5: จงเปรียบเทียบ if-else statement จากข้อ 4 ว่ามีการทำงานให้ผลลัพธ์เหมือนกันหรือไม่ อย่างไร
+// Exercise 5: จงเปรียบเทียบ if-else statement จากข้อ 4 ว่ามีการทำงานให้ผลลัพธ์เหมือนกันหรือไม่ อย่างไร
 
-if (isAdmind && login) {
+if (isAdmin && login) {
   name = "CC_15"
 }
-
+```
 
 # Loop
 
